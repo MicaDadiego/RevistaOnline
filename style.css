@@ -1,0 +1,162 @@
+header{
+    background-color: #b2b2b2;
+    padding-top: 1rem;
+}
+main,aside,footer{
+    padding:1rem ;
+}
+footer{
+    background-color: rgb(241, 235, 235);
+    
+}
+body{
+    font-family: 'Taviraj', serif;
+    color: black;
+}
+.imagenes{
+    display: inline-block;
+    justify-content: space-between;
+    gap: 2rem;
+    height: fit-content;
+    width: 500px;
+    margin-bottom: 2rem;
+    
+}
+.izquierda{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.derecha{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.titulo{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 2rem;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.formulario{
+    background-color:darkgray;
+   text-align:center;
+   color:lightgray;
+   padding: 15px 32px;
+    display: inline-block;
+   width: 300px;
+   height: 300px;
+   margin-left:35% ;
+   border: 1px solid;
+   right: 0;
+   float: right;
+   margin-right: 60px;
+ }
+ .btn{
+   margin-top:15px;
+   border-radius: 8px;
+   font-size: 15px;
+   background-color: #e7e7e7; color: black;
+   padding: 10px 12px;
+     text-align: center;
+     text-decoration: none;
+    bottom:10px;
+ 
+ 
+   
+ }
+ .textof{
+    margin-left: 150px;
+ }
+ .textop{
+    margin-left: 170px;
+    
+ }
+ .logo{
+    font-family: 'Staatliches', cursive;
+    height: 50px;
+ }
+ .logo2{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+ }
+.social_icons li a {
+    position: relative;
+    display: block;
+    width:50px;
+    height: 50px;
+    color: #555;
+    background-color: #fff;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgb(0 0 0/ 50%);
+    transform: perspective(1000px) rotate(-30deg)
+    skew(25deg)translate(0,0);
+    margin-left: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+.social_icons li a::before{
+    content: "";
+    position: absolute;
+    top:10px;
+    left: -20px;
+    height: 100%;
+    width: 20px;
+    background: #b2b2b2;
+    transition: 0.5s ;
+    transform: rotate(0deg);
+}
+
+.social_icons li a::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -10px;
+    height: 20px;
+    width: 100%;
+    background: #e5e5e5;
+    transition: 0.5s;
+    transform: rotate(0deg);
+}
+
+.social_icons li a:hover{
+    transform: perspective(1000px)rotate(-30deg)skew(25deg)translate(20px , -20px);
+    box-shadow: -50px 50px 50px rgba(0, 0,0, 0,5);
+}
+
+.social_icons li:hover .fa-brands {
+    color: #fff;
+}
+
+.social_icons li:hover:nth-child(1) a {
+    background-color: #3b5999;
+}
+.social_icons li:hover:nth-child(2) a {
+    background-color: #E1306C ;
+}
+.social_icons li:hover:nth-child(3) a {
+    background-color: #1DA1F2;
+}
+
+.fa-twitter,.fa-facebook-f, .fa-instagram{
+    font-size:40px;
+  text-align:center;
+  padding:10px;
+  width:100px;
+  height:50px;
+  
+}
+
+    
+.copy{
+    text-align: center;
+}
